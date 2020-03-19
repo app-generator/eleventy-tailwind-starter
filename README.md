@@ -36,7 +36,7 @@ $ cd eleventy-tailwind-starter
 $ yarn # install modules
 $ yarn start # start in development mode
 
-$ # app is running on http://localhost:8081
+$ # app is running on http://localhost:8181
 ```
 
 <br />
