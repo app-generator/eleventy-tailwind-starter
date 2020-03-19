@@ -1,10 +1,10 @@
 # [Eleventy Tailwind Starter](https://eleventy-tailwind-starter.appseed.us/)
 
-Static Site prototyped on top of [Eleventy](https://www.11ty.io/) SSG and TXT Design - [Live DEMO](https://eleventy-tailwind-starter.appseed.us)
+Static Site prototyped on top of [Eleventy](https://www.11ty.io/) SSG and Tailwind CSS - [Live DEMO](https://eleventy-tailwind-starter.appseed.us)
 
 - Design: [Tailwind Starter](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/) by [Creative-Tim](https://www.creative-tim.com)
-- [11ty](https://www.11ty.io/)
-- [ElevenTail](https://github.com/philhawksworth/eleventail)
+- [11ty](https://www.11ty.io/) SSG
+- [ElevenTail](https://github.com/philhawksworth/eleventail) - the initial starter
 - [Tailwindcss](https://tailwindcss.com) for a utility first CSS workflow
 - [PurgeCSS](https://www.purgecss.com/) for optimizing CSS output
 - [UglifyJS](https://www.npmjs.com/package/uglify-js) for a simple JS build pipeline
