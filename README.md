@@ -31,12 +31,21 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 - Build from sources:
 
 ```bash
+$ # Clone the sources
 $ git clone https://github.com/app-generator/eleventy-tailwind-starter.git
 $ cd eleventy-tailwind-starter
-$ yarn # install modules
-$ yarn start # start in development mode
-
+$
+$ # Install the dependencies
+$ yarn 
+$
+$ # Star in development mode
+$ yarn start # with LIVE reload
+$
 $ # app is running on http://localhost:8181
+$
+$ # Production build
+$ yarn build #
+$ # HTML files are generated in dist folder
 ```
 
 <br />
