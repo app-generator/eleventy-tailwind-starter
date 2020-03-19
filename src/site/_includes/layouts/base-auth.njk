@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    {% include "header.njk" %}
+    <title> {{ title }} | Tailwind Starter Kit by Creative-Tim | AppSeed </title>
+
+  </head>
+
+  <body class="text-gray-800 antialiased">
+    
+    {% include "navigation.njk" %}
+
+    <main>
+
+      {{ content | safe }}
+
+    </main>
+
+  </body>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+</html>

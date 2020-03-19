@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    {% include "header.njk" %}
+    <title> {{ title }} | Tailwind Starter Kit by Creative-Tim | AppSeed </title>
+
+  </head>
+
+  <body class="text-gray-800 antialiased">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+    
+      {% include "sidenav.njk" %}
+
+      <div class="relative md:ml-64 bg-gray-100">
+
+        {% include "top-bar.njk" %}
+
+        {{ content | safe }}
+
+      </div>
+    </div>
+    
+    {% include "scripts-dashboard.njk" %}
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    {% include "header.njk" %}
+    <title> {{ title }} | Tailwind Starter Kit by Creative-Tim | AppSeed </title>
+
+  </head>
+  <body class="text-gray-800 antialiased">
+    
+    {% include "navigation.njk" %}
+
+    <main class="{{ page-class }}">
+
+      {{ content | safe }}
+
+    </main>
+
+    {% include "footer.njk" %}
+
+  </body>
+
+  {% include "scripts.njk" %}
+
+</html>
